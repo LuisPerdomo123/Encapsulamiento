@@ -57,6 +57,13 @@ public class Persona {
     }
     
     
+    //Metodo toString
     
+    public String toString(){
+    
+        return "Persona [nombre: " + this.nombre +
+                " , sueldo: " + this.sueldo + 
+                ", eliminado: " + this.eliminado + "]";
+    }
     
 }
